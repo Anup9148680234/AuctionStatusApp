@@ -1,0 +1,186 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #bababa; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(234, 255, 0); 
+  }
+/* Scrollbar */
+
+.main_head{
+    margin: 0;
+    background-color: #333;
+    color: white;
+    position: relative;
+    width: 100vw;
+    top: 0;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    padding-left:3rem;
+}
+
+.custom_input{
+    padding: 0.7rem 1rem;
+    border: 1px solid #333;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    display: block;
+    width: 90%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    width: 300px;
+    height: 220px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.cards h1{
+    padding-top: 4px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+
+    width: 8rem;
+    height:2rem;
+    border-radius: 0.4rem;
+}
+
+.edate{
+    font-size: 0.8rem;
+    font-weight: 100;
+    font-style: normal;
+    float: right;
+    position: relative;
+    top: -3rem;
+    color: rgb(147, 147, 147);
+}
+
+.ecNum{
+    color: #757373;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #000000;
+    position: relative;
+    top: -3rem;
+    width: 100%;
+}
+
+.fromloc{
+    position: relative;
+    top: -3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 85%;
+}
+
+.toloc{
+    position: relative;
+    top: -3rem;
+    color: #757373;
+    font-size: 1rem;
+    font-weight: 100;
+    font-style: normal;
+    width: 75%;
+}
+
+.price{
+    position: relative;
+    top: -5rem;
+    font-size: 0.8rem;
+    font-weight: 100;
+    font-style: normal;
+    float: right;
+}
+
+.GREEN{
+    background-color: #84cc16;
+}
+
+.RED{
+    background-color: #f43f5e;
+}
+
+.YELLOW{
+    background-color: #fbbf24;
+}
+
+.AQUA{
+    background-color: aqua;
+}
+
+
+
+
+/* Loader */
+.lds-ring {
+    margin-left: 48vw;
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 6px solid #000000;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #000000 transparent transparent transparent;
+  }
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+/* Loader */

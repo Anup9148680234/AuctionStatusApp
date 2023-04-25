@@ -31,7 +31,7 @@ function getData(){
     }) 
 }
 
-setTimeout(getData,1000);
+setTimeout(getData,2000);
 
 document.getElementById('search').addEventListener('input',()=>{
     if(document.getElementById('search').value.trim()==""){

@@ -63,6 +63,13 @@ body{
     margin: 1rem;
 }
 
+.cards:hover{
+  transition: linear 0.1s;
+  transform: translate(-3px,-3px);
+  box-shadow: 5px 5px #757373;
+}
+
+
 .cards h1{
     padding-top: 4px;
     font-size: 1.4rem;
